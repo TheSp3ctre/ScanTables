@@ -6,7 +6,7 @@ Este projeto bem básico permite analisar e exibir de forma organizada os result
 
 ### 1. Instalar a gem `nokogiri`:
 
-```(\`\`\`bash\`) gem install nokogiri ```
+``` gem install nokogiri ```
 
 ### Executar um scan do Nmap e salvar a saída em formato XML:
 ``` nmap -oX output.xml [alvo] ``` 
