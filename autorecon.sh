@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # AutoRecon v1.0
-# Scanner Automatizado de Reconhecimento e Vulnerabilidades Básicas para Kali Linux
-# Copyright 2025 SecureTech
+
+
 
 # Cores para saída
 VERMELHO='\033[0;31m'
