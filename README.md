@@ -1,24 +1,22 @@
-# ScanTables
+# AutoRecon
 
-Este projeto bem básico permite analisar e exibir de forma organizada os resultados gerados pelo Nmap em formato XML. Abaixo estão os passos para instalar e usar a ferramenta.
+Salve galerinha, fiz uma ferramenta útil para Kali Linux.. e para usar esta ferramenta:
 
-## Passos para Uso
+1. Salve o script como `autorecon.sh`.
+2. Torne-o executável: `chmod +x autorecon.sh`.
+3. Execute-o como root: `sudo ./autorecon.sh`.
 
-### 1. Instalar a gem `nokogiri`:
 
-``` gem install nokogiri ```
+E oq esssa ferramenta faz?
 
-### Executar um scan do Nmap e salvar a saída em formato XML:
-``` nmap -oX output.xml [alvo] ``` 
-
-### Modificar a última linha do script para apontar para o seu arquivo XML: 
-
-``` parser = NmapParser.new('caminho/para/seu/arquivo.xml') ```
-
-Substitua ```caminho/para/seu/arquivo.xml``` pelo caminho correto do seu arquivo XML gerado pelo Nmap, belezinha? 
-
-### E finalmente, executar o script:
-
-``` ruby nmap_parser.rb ```
-
-Isso vai processar o arquivo XML e exibir os resultados no terminal. 
+1. Verifica se todas as dependências necessárias estão instaladas.
+2. Solicita ao usuário um endereço IP ou nome de domínio alvo.
+3. Valida a entrada do usuário.
+4. Cria um diretório para armazenar os resultados.
+5. Realiza uma varredura de portas usando nmap.
+6. Executa uma varredura de vulnerabilidades web usando nikto.
+7. Realiza uma força bruta de diretórios usando dirb.
+8. Coleta informações sobre tecnologias web usando whatweb.
+9. Realiza enumeração DNS usando host e dig.
+10. Coleta informações WHOIS.
+11. Gera um relatório HTML consolidando todos os resultados.
