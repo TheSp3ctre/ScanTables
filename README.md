@@ -1,6 +1,6 @@
 # AutoRecon
 
-Salve galerinha, fiz uma ferramenta útil para Kali Linux.. e para usar esta ferramenta:
+Salve galerinha, fiz uma ferramenta útil para Kali Linux/Kali Nethunter.. e para usar esta ferramenta:
 
 1. Salve o script como `autorecon.sh`.
 2. Torne-o executável: `chmod +x autorecon.sh`.
