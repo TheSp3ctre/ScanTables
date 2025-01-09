@@ -7,16 +7,17 @@ Salve galerinha, fiz uma ferramenta útil para Kali Linux/Kali Nethunter.. e par
 3. Execute-o como root: `sudo ./autorecon.sh`.
 
 
-E oq esssa ferramenta faz?
+Faz o seguinte:
 
-1. Verifica se todas as dependências necessárias estão instaladas.
-2. Solicita ao usuário um endereço IP ou nome de domínio alvo.
-3. Valida a entrada do usuário.
-4. Cria um diretório para armazenar os resultados.
-5. Realiza uma varredura de portas usando nmap.
-6. Executa uma varredura de vulnerabilidades web usando nikto.
-7. Realiza uma força bruta de diretórios usando dirb.
-8. Coleta informações sobre tecnologias web usando whatweb.
-9. Realiza enumeração DNS usando host e dig.
-10. Coleta informações WHOIS.
-11. Gera um relatório HTML consolidando todos os resultados.
+Checa se tá tudo certo com as dependências necessárias.
+Pede um IP ou domínio pra você.
+Confere se o que você digitou tá correto.
+Cria uma pastinha pra guardar os resultados.
+Usa o nmap pra escanear as portas.
+Faz um scan de vulnerabilidades web com o nikto.
+Usa o dirb pra tentar achar diretórios escondidos.
+Descobre as tecnologias web do alvo com o whatweb.
+Faz umas consultas DNS com o host e o dig.
+Puxa as infos de WHOIS do alvo.
+Junta tudo num relatório HTML bonitinho com os resultados.
+Resumindo: é uma ferramenta pra coletar um monte de informações sobre um alvo 🫰
